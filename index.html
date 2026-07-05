@@ -14,15 +14,14 @@
         }
         
 
-    </style>
-</head>
-<body>
-   <h3 style="color:chocolate; text-align: center; font-family:sans-serif;"> heyy this is my website </h3>
-   <P style="font-size: 40px; text-align: center; color: chocolate; font-family:sans-serif">my name is Tr3x, I live in nepal</P>
-   <img src="https://i.pinimg.com/736x/a6/9b/94/a69b9491e5505888ca590c494d9694a0.jpg" alt="Mausi" style="display: block; margin-left: auto; margin-right: auto; width: 20%;  border-radius: 50%;">
+    
+@import url('https://fonts.googleapis.com/css2?family=Amarna:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Just+Another+Hand&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-   <button class="button" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1')";> click here</button>
-   <style>
+
+    
+   
+
+  
     .button {
         background-color: chocolate;
         color: white;
@@ -45,7 +44,42 @@
         transform: scale(0.9);
     }
 
-    
+    .p {
+        font-size: 40px;
+        text-align: center;
+        color: chocolate;
+        font-family: 'Amarna', sans-serif;
+    }
+
+    .h3 {
+        font-size: 50px;
+        text-align: center;
+        color: chocolate;
+        font-family: 'Amarna', sans-serif;
+    }
+    .pic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        border-radius: 50%;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        border: 5px solid chocolate;
+        border-radius: 50%;
+        transition: filter 0.5s ease;
+        filter: grayscale(100%);
+        border-radius: 50%;
+
+    }
+    .pic:hover {
+        filter: grayscale(0%);
+    }
    </style>
+   </head>
+   <body>
+    <h3 class="h3"> heyy this is my website </h3>
+   <p class="p">my name is Tr3x, I live in nepal</P>
+   <img src="https://i.pinimg.com/736x/a6/9b/94/a69b9491e5505888ca590c494d9694a0.jpg" class="pic" alt="Mausi">
+   <button class="button" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1')";> click here</button>
 </body>
 </html>
